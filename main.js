@@ -78,7 +78,7 @@ const mergeSort = (array) => {
     return merge(sortSplit(left), sortSplit(numbers));
   };
   numbers = sortSplit(array, middle);
-  console.log(` Tri fusion : ${count} comparaisons - [${numbers}]`);
+  console.log(`3) Tri fusion : ${count} comparaisons - [${numbers}]`);
 }
 const bubbleSort=(array)=>{
      
@@ -127,7 +127,7 @@ const trie =(array)=>{
   console.log(mergeSort(array))
 }
 
-let array = readFileLines(fileName)
+let array = readFileLines(fileName);
 var arr= array.map(Number)
 trie(arr)
 
