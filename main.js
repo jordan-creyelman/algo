@@ -124,7 +124,7 @@ const trie =(array)=>{
   selectionSort(array)
   insertionSort(array)
   console.log(quickSort(array))
-  console.log(mergeSort(array))
+  mergeSort(array)
 }
 
 let array = readFileLines(fileName);
